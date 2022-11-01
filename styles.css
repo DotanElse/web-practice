@@ -1,0 +1,16 @@
+* {
+    font-family: sans-serif; /* all doc to be in this font */
+}
+
+h1 {
+    color: blue; /* will make all h1 headers be in this color */
+}
+
+.paragraphs {
+    background-color: aqua; /* class */
+}
+
+#link-paragraph {
+    font-size: 12px; /* specific id, will take priority over the class paragraphs*/
+}
+
