@@ -12,5 +12,9 @@ h1 {
 
 #link-paragraph {
     font-size: 12px; /* specific id, will take priority over the class paragraphs*/
+    border: 2px solid; /* have to specify border-style, such as solid/dotted */
+    border-color:blueviolet; /* can be added to border property after solid */
+    padding:20px; /* amount of pixels from start of the box to elements in it */
+    margin:5px; /* amount of pixels from end of neighboring boxes to start of this one */
 }
 
