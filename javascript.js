@@ -24,8 +24,6 @@ function FizzBuzz(max)
     }
 }
 
-RockPaperScissors()
-
 function RockPaperScissors()
 {
     const optionsArr= ["rock", "paper", "scissors"]
@@ -64,3 +62,25 @@ function RockPaperScissors()
         alert("Bohoo player loses i guess")
 
 }
+
+function alertFunction() 
+{
+    alert("YAY! YOU DID IT!");
+}
+let helloFont = [30]
+function spawnText(helloFont)
+{
+    if(helloFont > 0)
+    {
+        const spawnDiv = document.querySelector('#base-text');
+        const tmp = document.createElement('div');
+        tmp.textContent = 'Hello World!';
+        tmp.style.fontSize = helloFont[0] + "px";
+        console.log(helloFont[0] + "px")
+        helloFont[0] -= 2
+        spawnDiv.appendChild(tmp);
+    }
+}
+
+const btn = document.querySelector('#btn');
+btn.addEventListener('click', alertFunction); //can add multiple functions to trigger on click
